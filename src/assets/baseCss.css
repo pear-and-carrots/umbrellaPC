@@ -1,0 +1,46 @@
+@media screen and (min-width: 769px){
+  .pc{
+    display: block;
+  }
+  .mobile{
+    display: none;
+  }
+}
+@media screen and (max-width: 768px){
+  .pc{
+    display: none;
+  }
+  .mobile{
+    display: block;
+  }
+}
+
+
+/*文字无法选中*/
+.noSelect{
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/*文字溢出省略号*/
+.overHidden{
+  white-space:normal;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+
+/*消除浮动*/
+.clearFloat{
+  display: table;
+  content: '';
+  clear: both;
+}
+
+/*悬浮手型*/
+.hoverPointer{
+  cursor: pointer;
+}
+
